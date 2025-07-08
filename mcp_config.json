@@ -1,0 +1,40 @@
+{
+    "mcpServers": {
+      "filesystem": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-filesystem",
+          "D:\\TJUT\\paper\\MCP\\pskill9_hn-server-main"
+        ],
+        "riskLevel": 1,
+        "type": "process"
+      },
+
+      "appLauncher": {
+        "command": "node",
+        "args": [
+        "D:\\TJUT\\paper\\MCP\\mcp-bridge-api-main\\appLauncher.js"
+      ],
+        "riskLevel": 2,
+        "type": "process"
+      },
+
+      "webSearch": {
+        "command": "python",
+        "args": [
+        "D:\\TJUT\\paper\\MCP\\mcp-bridge-api-main\\webSearch.py"
+      ],
+        "riskLevel": 2,
+        "type": "process"
+      },
+      "excelProcessor": {
+        "command": "python",
+        "args": [
+        "D:\\TJUT\\paper\\MCP\\mcp-bridge-api-main\\excelProcessor.py"
+      ],
+        "riskLevel": 2,
+        "type": "process"
+      }
+    }
+}
