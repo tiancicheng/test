@@ -34,12 +34,12 @@ DEFAULT_MCP_BRIDGE_URL = "http://localhost:3000"  # Default URL for MCP Bridge
 
 OPENAI_MODEL = "gpt-4o"
 client = openai.OpenAI(
-    api_key="sk-rQc3qrvBQ2jqkFw2B55h9dN8OkYY4Fw3UUSuMnGNNEpj5irX",
+    api_key="sk-rQc3qrvBQ2jqkFw2B55h9dN8OkYY4Fw3UUSuMnGNNEpj5X",
     base_url="https://chatapi.littlewheat.com/v1"  # 注意这里需要带 /v1
 )
 #OPENAI_MODEL = "gemini-2.5-pro-exp-03-25"  # 或者 deepseek-chat, gemini-pro 等
 # openai.api_base = "https://chatapi.littlewheat.com"  # ⚠️根据你的服务商提供的地址替换
-#GEMINI_API_KEY = "sk-rQc3qrvBQ2jqkFw2B55h9dN8OkYY4Fw3UUSuMnGNNEpj5irX"
+#GEMINI_API_KEY = "sk-rQc3qrvBQ2jqkFw2B55h9dN8OkYY4Fw3UUSuMnGNNEpj5X"
 #GEMINI_MODEL = "gemini-2.5-pro-exp-03-25"  # Use the appropriate model as needed
 console = Console()
 
